@@ -1,8 +1,6 @@
 package com.example.activitylifecylce;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.nfc.Tag;
 import android.os.Bundle;
 import android.util.Log;
 
