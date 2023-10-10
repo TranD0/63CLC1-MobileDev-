@@ -1,8 +1,10 @@
-package com.example.excercie_6;
+package com.example.trthaingocodo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.excercie_6.R;
 
 public class MainActivity extends AppCompatActivity {
 

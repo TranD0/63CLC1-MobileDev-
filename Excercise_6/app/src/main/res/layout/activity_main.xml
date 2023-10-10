@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtA"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:hint="nhập số thứ 1 ">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/edtB"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:hint="nhập số thứ 2 ">
+
+        </EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:onClick="XuLy_Cong"
+            android:text="+"
+            android:textSize="25dp"></Button>
+
+        <Button
+            android:id="@+id/btnSub"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:onClick="XuLy_Tru"
+            android:text="-"
+            android:textSize="25dp"></Button>
+
+        <Button
+            android:id="@+id/btnMul"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:onClick="XuLy_Nhan"
+            android:text="*"
+            android:textSize="25dp"></Button>
+
+        <Button
+            android:id="@+id/btnDiv"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:onClick="XuLy_Chia"
+            android:text="/"
+            android:textSize="25dp"></Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="25dp">
+
+        </TextView>
+    </LinearLayout>
+</LinearLayout>
