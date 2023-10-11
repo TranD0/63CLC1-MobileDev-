@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         TextView dk_KQ = (TextView) findViewById(R.id.tvResult);
         dk_KQ.setText( String.valueOf(KetQua) );
     }
+
     public void XuLy_Chia(View view){
         EditText dk_soA = (EditText) findViewById(R.id.edtA);
         float SoA = Float.parseFloat(dk_soA.getText().toString());
